@@ -53,6 +53,30 @@ Everything is themed using the **Catppuccin Mocha Rosewater** palette. This incl
 
 ```bash
 git clone https://github.com/Dragonslayer-9095/I3wm.git ~/.dotfiles
+```
+
+## 🧠 What I Learned
+
+Throughout this rice and dotfiles journey, I picked up a ton of valuable knowledge and skills:
+
+| Concept / Tool         | What I Learned / Did                                                                 |
+|------------------------|--------------------------------------------------------------------------------------|
+| `i3wm` + `i3-gaps`     | Deep understanding of window manager configuration, workspace behavior, and keybinds |
+| `Polybar`              | Creating and customizing modules, integrating system info and media controls         |
+| `Rofi`                 | Building custom menus (power, wifi, launcher) with themes and interactivity          |
+| `i3lock`               | Theming with blur, lock screen visuals, and systemd-based lock integration           |
+| `Picom`                | Tweaking animations, shadows, blur, and opacity for a polished UX                   |
+| `Dunst`                | Styling and positioning notifications with urgency levels                           |
+| `Alacritty` / `Kitty`  | Minimal terminal configuration, font rendering, and transparency                    |
+| `Playerctl`            | Media integration in Polybar                                                         |
+| Git/GitHub             | Version-controlling dotfiles, branch management, handling merge conflicts           |
+| Screenshot tools       | Using `flameshot`, binding screenshot keys, delay-based capture for popups          |
+| Shell scripting        | Automating setup via `install.sh`, symlinking configs with checks                   |
+
+> Bonus: Got much better at reading manpages and debugging system-level quirks (hello, `~/.xinitrc` 😅)
+
+---
+
 cd ~/.dotfiles
 ./install.sh  # Or manually symlink configs as you like
 
