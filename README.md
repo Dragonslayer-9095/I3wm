@@ -2,7 +2,7 @@
 
 Welcome to my personal i3wm dotfiles! This repo contains my fully themed and customized i3 window manager configuration, designed for a clean, minimal, and highly functional workflow — all wrapped in a gorgeous Catppuccin Mocha Rosewater-inspired theme.
 
-![Screenshot](./.screenshots/desktop.png) <!-- Add a screenshot here -->
+![Screenshot](./.assets/screenshot.png) <!-- Add a screenshot here -->
 
 ## ✨ Features
 
@@ -44,6 +44,6 @@ Everything is themed using the **Catppuccin Mocha Rosewater** palette. This incl
 > ⚠️ This setup is tailored for **Kali Linux** with **i3wm**. Use at your own risk and back up existing configs!
 
 ```bash
-git clone https://github.com/yourusername/i3wm-dotfiles.git ~/.dotfiles
+git clone https://github.com/Dragonslayer-9095/I3wm.git ~/.dotfiles
 cd ~/.dotfiles
 ./install.sh  # Or manually symlink configs as you like
