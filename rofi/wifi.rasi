@@ -1,0 +1,67 @@
+// configuration {
+//   font: "JetBrainsMono Nerd Font 12";
+//   show-icons: true;
+// }
+//
+// /* Define colors separately, outside the config block */
+// @define-color bg       #1e1e2e;
+// @define-color fg       #f5e0dc;
+// @define-color accent   #f5e0dc;
+// @define-color active   #a6e3a1;
+// @define-color urgent   #f38ba8;
+// @define-color selbg    #f5e0dc;
+// @define-color selfg    #1e1e2e;
+//
+// window {
+//   width: 500px;
+//   padding: 20px;
+//   border: 2px;
+//   border-radius: 20px;
+//   background-color: rgba(30, 30, 46, 0.6); // semi-transparent for blur
+// }
+//
+// mainbox {
+//   background-color: transparent;
+//   padding: 0px;
+//   border: 0px;
+//   spacing: 10px;
+// }
+//
+// listview {
+//   lines: 8;
+//   spacing: 8px;
+//   fixed-height: false;
+//   scrollbar: true;
+//   border: 0;
+// }
+//
+// element {
+//   padding: 8px;
+//   border-radius: 12px;
+// }
+//
+// element normal {
+//   background-color: transparent;
+//   text-color: @fg;
+// }
+//
+// element selected {
+//   background-color: rgba(245, 224, 220, 0.85);
+//   text-color: @selfg;
+// }
+//
+// entry {
+//   padding: 6px;
+//   background-color: transparent;
+//   text-color: @fg;
+//   placeholder-color: @fg;
+// }
+//
+// prompt {
+//   text-color: @fg;
+// }
+//
+// textbox {
+//   text-color: @fg;
+// }
+//
