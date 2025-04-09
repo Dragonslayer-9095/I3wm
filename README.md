@@ -53,7 +53,9 @@ Everything is themed using the **Catppuccin Mocha Rosewater** palette. This incl
 
 ```bash
 git clone https://github.com/Dragonslayer-9095/I3wm.git ~/.dotfiles
+cd ~/.dotfiles
 ```
+Now use the files by moving them to the appropriate directories
 
 ## 🧠 What I Learned
 
@@ -73,10 +75,7 @@ Throughout this rice and dotfiles journey, I picked up a ton of valuable knowled
 | Screenshot tools       | Using `flameshot`, binding screenshot keys, delay-based capture for popups          |
 | Shell scripting        | Automating setup via `install.sh`, symlinking configs with checks                   |
 
-> Bonus: Got much better at reading manpages and debugging system-level quirks (hello, `~/.xinitrc` 😅)
+> Bonus: Got much better at reading manpages and debugging system-level quirks (hello, `~/.config/i3/config` 😅)
 
 ---
-
-cd ~/.dotfiles
-./install.sh  # Or manually symlink configs as you like
 
