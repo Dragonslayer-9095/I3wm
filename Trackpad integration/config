@@ -1,0 +1,4 @@
+gesture swipe left  xdotool key Ctrl+Tab         # Switch to next tab
+gesture swipe right xdotool key Ctrl+Shift+Tab  # Switch to previous tab
+gesture swipe up    i3-msg workspace next       # Switch to next workspace
+gesture swipe down  i3-msg workspace prev       # Switch to previous workspace
